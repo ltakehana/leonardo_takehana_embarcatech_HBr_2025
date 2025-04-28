@@ -1,0 +1,3 @@
+Comando para executar testes unitários:
+
+gcc     tests/test_adc_to_celsius.c     drivers/temp_sensor.c     hal/hal_temp_sensor.c     lib/unity/unity.c     -Itests/mocks     -Iinclude     -Ilib/unity     -Idrivers     -Ihal     -o run_tests.o
